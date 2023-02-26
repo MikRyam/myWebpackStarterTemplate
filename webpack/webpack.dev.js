@@ -6,7 +6,7 @@ module.exports = {
   devtool: 'cheap-module-source-map',
   devServer: {
     static: path.resolve(__dirname, "..", "./build"),
-    // historyApiFallback: true,
+    historyApiFallback: true,
     port: 3000,
     open: true,
     hot: true,
